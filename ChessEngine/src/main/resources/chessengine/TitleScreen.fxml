@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="baseAnchor" prefHeight="491.0" prefWidth="606.0" style="-fx-background-image: url(&quot;https://img.freepik.com/free-photo/close-up-white-marble-textured-wall_53876-74716.jpg?t=st=1732131906~exp=1732135506~hmac=0aac59a9372ddd36e2be7db80e08f682e61fbc0771bf1e770f15a73cbe878634&amp;w=900&quot;);" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chessengine.controllers.TitleScreenController">
+   <children>
+      <Label layoutX="147.0" layoutY="21.0" text="Chess Game" textFill="#574a3a">
+         <font>
+            <Font name="Courier New Bold" size="52.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="177.0" layoutY="123.0" prefHeight="289.0" prefWidth="251.0" style="-fx-background-color: #715d4c; -fx-border-color: black; -fx-background-radius: 15; -fx-border-radius: 15;">
+         <children>
+            <Button layoutX="60.0" layoutY="47.0" mnemonicParsing="false" onAction="#registerScreen" prefHeight="39.0" prefWidth="131.0" style="-fx-background-color: #9a8468;" text="Register" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="60.0" layoutY="206.0" mnemonicParsing="false" onAction="#exit" prefHeight="39.0" prefWidth="131.0" style="-fx-background-color: #9a8468;" text="Exit" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="60.0" layoutY="128.0" mnemonicParsing="false" onAction="#loginScreen" prefHeight="39.0" prefWidth="131.0" style="-fx-background-color: #9a8468;" text="Login" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
