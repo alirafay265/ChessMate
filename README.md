@@ -1,6 +1,6 @@
 # ChessMate: JavaFX Chess Game with AI
 
-Welcome to **ChessMate**, a complete chess application developed using **JavaFX** and **Stockfish AI engine**, built as a semester project by two passionate contributors. This game supports both **Multiplayer (Two Player)** and **Single Player (AI)** modes, includes modern chess rules like **castling**, **en passant**, **pawn promotion**, and has a fully working **GUI** integrated with **FXML** and **SceneBuilder**.
+Welcome to **ChessMate**, a complete chess application developed using **JavaFX** and **Stockfish AI engine**. This game supports both **Multiplayer (Two Player)** and **Single Player (AI)** modes, includes modern chess rules like **castling**, **en passant**, **pawn promotion**, and has a fully working **GUI** integrated with **FXML** and **SceneBuilder**.
 
 ---
 
